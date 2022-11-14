@@ -26,11 +26,7 @@ public class Triangle {
         return "VertexA:("+vertexA.getX()+","+vertexA.getY()+") VertexB:("+vertexB.getX()+","+vertexB.getY()+") VertexC:("+vertexC.getX()+","+vertexC.getY()+")";
     }
 
-    public double getPerimeter(){
-        double dist1 = Math.sqrt(((vertexB.getX()- vertexA.getX())*(vertexB.getX()- vertexA.getX()))+((vertexB.getY()- vertexA.getY())*(vertexB.getY()- vertexA.getY())));
-        double dist2 = Math.sqrt(((vertexC.getX()- vertexB.getX())*(vertexC.getX()- vertexB.getX()))+((vertexC.getY()- vertexB.getY())*(vertexC.getY()- vertexB.getY())));
-        double dist3 = Math.sqrt(((vertexA.getX()- vertexC.getX())*(vertexA.getX()- vertexC.getX()))+((vertexA.getY()- vertexC.getY())*(vertexA.getY()- vertexC.getY())));
-        return dist1+dist2+dist3;
+  
 
     }
 
