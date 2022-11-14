@@ -34,6 +34,24 @@ public class Triangle {
 
     }
 
+    public String getType(){
+        double dist1 = vertex1.distance(vertex2);
+        double dist2 = vertex2.distance(vertex3);
+        double dist3 = vertex3.distance(vertex1);
+
+        if(dist1 == dist2 && dist2 == dist3 && dist3==dist1){
+            return "This Triangle is Equilateral";
+        }
+
+        else if(dist1 != dist2 && dist2 != dist3 && dist3!=dist1){
+            return "This Triangle is Scalene";
+        }
+
+        else{
+            return "This Triangle is Isosceles";
+        }
+    }
+
     public String getMedianA(){
         return "The coordinates of MedianA are "+this.medianA.toString()+" And the length is "+ this.medianA.getLength();
     }
