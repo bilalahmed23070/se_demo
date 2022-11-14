@@ -48,9 +48,7 @@ public class Triangle {
         }
     }
 
-    public String getMedianA(){
-        return "The coordinates of MedianA are "+this.medianA.toString()+" And the length is "+ this.medianA.getLength();
-    }
+   
 
     public String getMedianB(){
         return "The coordinates of MedianB are "+this.medianB.toString()+" And the length is "+ this.medianB.getLength();
