@@ -22,10 +22,7 @@ public class Triangle {
     medianC = new Line(vertexC,temp3);
     }
 
-    public String toString(){
-        return "VertexA:("+vertexA.getX()+","+vertexA.getY()+") VertexB:("+vertexB.getX()+","+vertexB.getY()+") VertexC:("+vertexC.getX()+","+vertexC.getY()+")";
-    }
-
+ 
   
 
     }
